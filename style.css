@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 105vh;
+}
+.insta{margin-top: 30px;
+    font-size: 30px;
+    background-color: aliceblue;
+    width: 55px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.enve{
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    width: 48px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+}
+.call{
+    display: flex;
+    
+}
+.twi{
+font-size: 30px;
+margin-top: 20px;
+background-color: aliceblue;
+    width: 48px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.block{
+    padding-right: 1px;
+}
+.icons{
+    display: flex;
+    font-size: 30px;
+    color: green;
+}
+.wrapper {
+    width: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    border: 2px solid green;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 70px;
+
+}
+.container-fluid img{
+    height: 70px;
+    width: 90px;
+}
+.navbar-nav{
+    margin: auto;
+    
+    /* padding-left: 300px;    */
+}
+.d-flex button{
+    /* margin-left: 220px; */
+
+}
+.nav-item a{
+    color: grey !important;
+    font-size: 22px;
+}
+.nav-item a:hover{
+    color: black !important;
+}
+.navbar{
+    background-color: white!important;
+}
+.input-group {
+    width: 300px !important;
+    
+
+}
+.input-group input{
+    border: 2px solid green;
+    border-radius: 20px;
+    
+}
+.input-group button{
+    width: 90px;
+    border-radius: 30px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    height: 40px
+   
+
+    
+}
+.icons2{
+    display: none;
+}
+.green{
+    color: green;
+}
+.content {
+    margin-top: 100px;
+    width: 100%;
+
+}
+.content h1{
+    font-size: 48px;
+
+}
+.content p{
+    width: 350px;
+}
+.rowv {
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    margin-top: 50px;
+}
+.card-row{
+    width: 500px;
+    margin-right: 30px;
+    box-shadow: 0 0 24px 0 rgba(0, 0,0,0.12) ;
+    border-top: 3px solid green;
+    background-color: white;
+    height: 600px;
+}
+.location{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+
+.big input{
+    height: 200px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    border: none !important;
+}
+.frame{
+    height: 250px !important;
+    width: 350px !important;
+    padding-left: 50px;
+    margin-top: 50px;
+   
+}
+form{
+    /* width: 680px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.right{
+    width: 750px;
+}
+#last-button{
+    background-color: green;
+    margin-left: 250px;
+}
+footer{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+}
+image img{
+    width: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .rowv{
+        flex-direction: column !important;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .image img{
+        width: 350px !important;
+        height: 300px !important;
+        padding-bottom: -10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .card-row{
+        width: 370px !important;
+        align-items: center;
+    }
+    footer{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .icons{
+        display: none;
+    }
+    .icons2{
+        display: block;
+        display: flex;
+        font-size: 30px;
+        color: green;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .container{
+        height: auto;
+    }
+}
